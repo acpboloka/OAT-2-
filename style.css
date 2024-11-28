@@ -1,0 +1,111 @@
+/* Cores Futuristas */
+body {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    font-family: 'Arial', sans-serif;
+    color: #f0f0f0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+  }
+  
+  h1, h2 {
+    color: #00d4ff;
+    text-shadow: 0 0 10px #00d4ff, 0 0 20px #00d4ff;
+  }
+  
+  form {
+    background: #1e1e2f;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  form label {
+    color: #7de2d1;
+    font-weight: bold;
+  }
+  
+  form input {
+    background: #2a2a40;
+    color: #fff;
+    border: 1px solid #444;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  form input:focus {
+    border-color: #00d4ff;
+    box-shadow: 0 0 8px #00d4ff;
+  }
+  
+  button {
+    background: linear-gradient(45deg, #ff007a, #7a00ff);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background: linear-gradient(45deg, #7a00ff, #ff007a);
+    transform: scale(1.05);
+  }
+  
+  table {
+    width: 100%;
+    background: #1e1e2f;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  thead {
+    background: linear-gradient(45deg, #7a00ff, #ff007a);
+    color: #fff;
+  }
+  
+  thead th {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  tbody tr {
+    transition: background 0.3s;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background: #2a2a40;
+  }
+  
+  tbody tr:nth-child(even) {
+    background: #1e1e2f;
+  }
+  
+  tbody tr:hover {
+    background: rgba(0, 212, 255, 0.2);
+  }
+  
+  td {
+    padding: 10px;
+  }
+  
+  .btn-danger {
+    background: linear-gradient(45deg, #ff2e63, #e84545);
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-danger:hover {
+    background: linear-gradient(45deg, #e84545, #ff2e63);
+    transform: scale(1.1);
+  }
+  
